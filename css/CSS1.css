@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Oxygen', sans-serif;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin:0;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(19.jpeg) no-repeat;
+  background-size: cover;
+  color: black;
+  font-family: "open sans";
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+header{
+  top: 0;
+  display:flex;
+  justify-content: space-between;
+  color: white;
+  background: rgba(0,0,0,0.2)
+}
+.sticky {
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.sticky + .titles {
+  padding-top: 60px;
+}
+header div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Pacifico;
+  margin: 0 2rem;
+}
+
+header div i{
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+
+header nav{
+  padding: 1rem 2rem;
+}
+
+nav ul li{
+
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+nav li a{
+
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 250ms ease-in;
+ 
+}
+
+nav li a:hover{
+  background: rgba(255,255,255,.5) ;
+  color: black;
+}
+.join li a{
+  border: 2px solid orange; 
+
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 250ms ease-in;
+ 
+}
+.join li a:hover{
+  background: orange;
+  color: black;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+.join us{
+
+  color: orange;
+}
+
+.join us:hover {
+  background-color: ;
+}
+<!-->
+.join1 li a{
+  border: 2px solid orange; 
+
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 250ms ease-in;
+ 
+}
+.join1 li a:hover{
+  background: orange;
+  color: black;
+}
+
+.btn1 {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+.join1 us{
+
+  color: orange;
+}
+
+.join1 us:hover {
+  background-color: #ff9800;
+}
+.titles{
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 50vw;
+  margin: auto;
+}
+
+.titles h1{
+	overflow: hide;
+  font-size: 5rem;
+  text-shadow: 1px 1px 0 black;
+}
+
+.titles p{
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 0 black;
+}
+.titles1{
+  padding: 107px 0px 102px 0px;
+  margin-top: 150px;
+  position: relative;
+  color: white;
+  text-align: center;
+  width: 1500px;
+  
+}
+
+.titles1 h1{
+  font-size: 5rem;
+}
+
+.titles1 p{
+  letter-spacing: 5px;
+}
+
+
+
+
+/* MEDIAQUERIES *
+
+
+@media (max-width: 1160px){
+   .icon{
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .text h3{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+
+  .text p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+    font-size: .8rem;
+  }
+  nav li a:hover{
+  background: none;
+  color: black;
+  }
+}
+
+
+@media (max-width: 850px){
+  body{
+    height: 100%;
+  }
+  .container-boxes{
+    flex-direction: column;
+  }
+  .box:hover{
+    background: rgba(255,255,255,.7);
+    transform: none;
+  }
+  .titles h1{
+  font-size: 3rem;
+  }
+}
+
+
+

@@ -1,0 +1,54 @@
+.container-boxes{
+  margin: 0 auto;
+  padding: 0;
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  max-width: 80vw;
+  margin-top: 50px;
+}
+
+.box{
+  background: rgba(255,255,255,.5);
+  margin: 1rem;
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 350px;
+  max-height: 180px;
+  min-height: 180px;
+  transition: all 250ms ease-out;
+}
+
+.box:hover{
+  background: rgba(255,255,255,.7);
+  transform: translateY(-20%);
+}
+
+.box a{
+  text-decoration: none;
+  color: black;
+}
+
+.icon{
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.text h3{
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 0;
+}
+
+.text p{
+  margin-top: 1rem;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.text{
+  padding: .5rem;
+}
+

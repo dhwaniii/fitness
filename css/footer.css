@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
+
+.footer {
+   left: 50%;
+   bottom: 0;
+   width: 100%;
+   background-color: #c6ccc7;
+   color: #000;
+   text-align: center;
+   margin-top:60px;
+   margin-bottom: 0;
+   height: 400px;
+}
+
+.footer .new_footer_top {
+	line-height: 1.3;
+	overflow:auto;
+}
+
+ul {
+	list-style-type:none;
+}
+
+
+h3{
+	color: #000;
+}
+h3:hover{
+	color:#818181;
+}	
+
+ul li a{
+	text-decoration:none;
+}
+
+a{
+color:#818181;
+}
+
+a:hover{
+	color: #000;
+}
+.new_footer_content{
+	float: left;
+	width: 25%;
+	padding: 25px;
+}
+
+
+.parallax {
+	
+  background-image: url('19.jpeg');
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top:100px;
+}
